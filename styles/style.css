@@ -5,7 +5,6 @@
 .logo-block{
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
 }
 header{
     height: 90px;
@@ -34,6 +33,9 @@ header{
     margin-right: 15px;
     display: flex;
     align-items: center;
+    position: relative;
+    animation-name: move-header;
+    animation-duration: 2.5s;
 }
 .font-LibreFranklin{
     font-family: 'Libre Franklin';
@@ -49,6 +51,7 @@ header{
 }
 .item-menu{
     margin-left: 40px;
+    position: relative;
 }
 .top-line{
     width: 100%;
@@ -60,6 +63,7 @@ header{
 .main-content{
     margin-bottom: 60px;
     margin-top: 59px;
+    flex-direction: row-reverse;
 }
 .secondary-content{
     margin-bottom: 50px;
@@ -86,9 +90,18 @@ header{
 .content-photo{
     margin-bottom: 25px;
 }
-.main-content-text
-{
-   margin-left: 51px;
+.main-content-text{
+    position: relative;
+    margin-left: 51px;
+    animation-name: move-text;
+    animation-duration: 2s;
+}
+.main-content-photo{
+    animation-name: move-photo;
+    animation-duration: 2s;
+}
+.main-content-photo{
+    position: relative;
 }
 .type{
     font-size: 10px;
@@ -179,34 +192,13 @@ header{
 }
 input[type="email"]:focus{
     outline: 0;
-
 }
-
 .send-btn{
     background: #000000;
     border-radius: 0px;
     width: 79px;
     height: 50px;
     color: #FFFFFF;
-}
-.footer-info{
-    margin: 70px 0px 0px 0px;
-}
-.footer-information-margin-right{
-    margin: 0px 152px 0px 0px;
-}
-.footer-follow-margin-right{
-    margin: 0px 144px 0px 0px;
-}
-.footer-container-display{
-    display: flex;
-    flex-direction: row;
-}
-.photo-scale{
-    transition: all 0.5s ease 0s;
-}
-.photo-scale:hover{
-    transform: scale(0.9,0.9);
 }
 .gorizontal-line{
     width: 1200;
@@ -222,10 +214,53 @@ footer{
     margin-top: 90px;
     background: #141414;
     height: 617px;
-    display: flex;
-    align-items: flex-end;
+    flex-direction: column;
 }
 .footer-container{
     height: 524px;
     margin-top: 93px;
 }
+.footer-info{
+    margin: 70px 0px 0px 0px;
+}
+.footer-information-margin-right{
+    margin: 0px 152px 0px 0px;
+}
+.footer-follow-margin-right{
+    margin: 0px 144px 0px 0px;
+}
+.photo-scale{
+    transition: all 0.5s ease 0s;
+}
+.photo-scale:hover{
+    transform: scale(0.9,0.9);
+}
+@keyframes move-text{
+    0%{
+        right: -500px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        right: 0px;
+    }
+}
+@keyframes move-photo{
+    0%{
+        left: -500px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        left: 0px;
+    }
+}
+@keyframes move-header{
+    0%{
+        top: -500px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+
