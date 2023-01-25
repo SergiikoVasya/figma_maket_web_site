@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gorizontal-line{
+    width: 1200;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.site-gorizontal-line{
+    margin: 90px 0px 90px 0px;
+}
+.footer-gorizontal-line{
+    margin: 60px 0px 60px 0px;
+}
+footer{
+    background: #141414;
+    height: 617px;
+    display: flex;
+    align-items: flex-end;
+}
+.footer-container{
+    height: 524px;
+    margin-top: 93px;
+}
+.logo-block{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+header{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+.site-font{
+    font-style: normal;
+    font-weight: 400;
+  }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.smaller-container{
+    width: 1040px;
+}
+.header-container-size{
+    width: 1180px;
+}
+.header-container{
+    height: 100%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.header-font-style{
+    font-family: 'Libre Franklin';
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+.item-menu{
+    margin-left: 40px;
+}
+.container-display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-content{
+    margin-bottom: 60px;
+    margin-top: 59px;
+}
+.secondary-content{
+    margin-bottom: 50px;
+}
+.content-item{
+    margin-right: 20px;
+}
+.big-photo{
+    width: 721px;
+    height: 474px;
+}
+.between-mid-and-big-photo{
+    height: 387px;
+    width: 590px;
+}
+.mid-photo{
+    Width: 387px;
+    Height: 254px;
+}
+.small-photo{
+    Width: 285px;
+    Height: 187px;
+}
+.content-photo{
+    margin-bottom: 25px;
+}
+.main-content-text
+{
+   margin-left: 51px;
+}
+.type{
+    font-family: 'Libre Franklin';
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.posts-type{
+    margin-bottom: 30px;
+}
+.photo-type{
+    margin-bottom: 18px;
+}
+.photo-name{
+    font-family: 'Tenor Sans';
+    text-transform: uppercase;
+    color: #000000;
+}
+.photo-name-big{
+    margin-bottom: 27px;
+    font-size: 36px;
+    line-height: 42px;
+}
+.photo-name-small{
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.about-photo{
+    margin-bottom: 28px;
+    font-family: 'Source Serif Pro';
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+.photo-author{
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.btn-view-all{
+    background: #FFFFFF;
+    height: 54px;
+    width: 205px;
+}
+.btn-view-all:hover{
+    background: rgb(239, 239, 239);
+}
+.menu-link{
+    text-decoration: none;
+    color: #000000;
+}
+.site-rights{
+    margin-left: 15px;
+}
+.footer-text{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+}
+.main-text-footer{
+    margin-bottom: 20px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+.secondary-text-footer{
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.email{
+    height: 48px;
+    width: 221px;
+    padding-left: 24px;
+    background: #FFFFFF;
+    text-transform: none;
+    border: 1px solid #CCCCCC; 
+    border-radius: 0px;
+}
+input[type="email"]:focus{
+    outline: 0;
+
+}
+
+.send-btn{
+    background: #000000;
+    border-radius: 0px;
+    width: 79px;
+    height: 50px;
+    color: #FFFFFF;
+}
+.footer-info{
+    margin: 70px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-information-margin-right{
+    margin: 0px 152px 0px 0px;
+}
+.footer-follow-margin-right{
+    margin: 0px 144px 0px 0px;
+}
+.footer-container-display{
+    display: flex;
+    flex-direction: row;
+}
+

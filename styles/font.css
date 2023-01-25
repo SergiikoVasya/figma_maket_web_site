@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(/fonts/LibreFranklin-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Tenor Sans';
+    src: url(/fonts/TenorSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url(/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf);
+}
