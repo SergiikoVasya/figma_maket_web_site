@@ -67,6 +67,8 @@ header{
 }
 .secondary-content{
     margin-bottom: 50px;
+    animation-name: show-element;
+    animation-duration: 2s;
 }
 .content-item{
     margin-right: 20px;
@@ -111,6 +113,8 @@ header{
 }
 .posts-type-margin{
     margin-bottom: 30px;
+    animation-name: show-element;
+    animation-duration: 2s;
 }
 .type-of-photo-margin{
     margin-bottom: 18px;
@@ -152,6 +156,8 @@ header{
     background: #FFFFFF;
     height: 54px;
     width: 205px;
+    animation-name: show-element;
+    animation-duration: 2s;
 }
 .btn-view-all:hover{
     background: rgb(239, 239, 239);
@@ -203,6 +209,8 @@ input[type="email"]:focus{
 .gorizontal-line{
     width: 1200;
     justify-content: center;
+    animation-name: show-element;
+    animation-duration: 2s;
 }
 .site-gorizontal-line{
     margin: 90px 0px 90px 0px;
@@ -215,6 +223,8 @@ footer{
     background: #141414;
     height: 617px;
     flex-direction: column;
+    animation-name: show-element;
+    animation-duration: 2s;
 }
 .footer-container{
     height: 524px;
@@ -261,6 +271,14 @@ footer{
     }
     100%{
         top: 0px;
+    }
+}
+@keyframes show-element{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
 
