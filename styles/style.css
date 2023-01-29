@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
+.menu-link{
+    color: #000000;
+}
+.footer-link{
+    color: #FFFFFF;
+}
 .logo-block{
     display: flex;
     flex-direction: row;
@@ -162,10 +171,6 @@ header{
 .btn-view-all:hover{
     background: rgb(239, 239, 239);
 }
-.menu-link{
-    text-decoration: none;
-    color: #000000;
-}
 .site-rights{
     margin-left: 15px;
 }
@@ -187,6 +192,9 @@ header{
     line-height: 24px;
     color: #FFFFFF;
 }
+.form{
+    max-height: 48px;
+}
 .email{
     height: 48px;
     width: 221px;
@@ -202,9 +210,15 @@ input[type="email"]:focus{
 .send-btn{
     background: #000000;
     border-radius: 0px;
+    border: 0px;
     width: 79px;
-    height: 50px;
+    height: 49px;
     color: #FFFFFF;
+    border: 1px solid #000000;
+}
+.send-btn:hover{
+    background: rgb(79, 78, 78);
+    border: 1px solid #CCCCCC;
 }
 .gorizontal-line{
     width: 1200;
@@ -240,7 +254,7 @@ footer{
     margin: 0px 144px 0px 0px;
 }
 .photo-scale{
-    transition: all 0.5s ease 0s;
+    transition: all 0.5s ease;
 }
 .photo-scale:hover{
     transform: scale(0.9,0.9);
