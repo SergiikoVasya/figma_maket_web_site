@@ -222,7 +222,8 @@ input[type="email"]:focus{
     border: 1px solid #CCCCCC;
 }
 .gorizontal-line{
-    width: 1200;
+    width: 100%;
+    display: flex;
     justify-content: center;
     flex-direction: row;
     animation-name: show-element;
