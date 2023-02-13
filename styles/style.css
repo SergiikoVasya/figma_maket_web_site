@@ -29,19 +29,12 @@ header{
     text-transform: uppercase;
 }
 .container{
-    width: 1200px;
+    width: 1170px;
     margin: 0 auto;
 }
+
 .smaller-container{
-    width: 1040px;
-}
-.header-container{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    animation-name: move-header;
-    animation-duration: 2.5s;
+    width: 1010px;
 }
 .font-LibreFranklin{
     font-family: 'Libre Franklin';
@@ -71,40 +64,44 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
+.header-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    animation-name: move-header;
+    animation-duration: 2.5s;
+}
 .main-content{
-    margin-bottom: 60px;
-    margin-top: 59px;
-    flex-direction: row-reverse;
+    width: 100%;
+    margin: 59px 0px 60px 0px;
+    flex-direction: row;
 }
 .secondary-content{
-    margin-bottom: 50px;
+    margin: 0px 0px 50px 0px;
     animation-name: show-element;
     animation-duration: 2s;
 }
 .content-item{
-    margin-right: 20px;
+    margin: 0px 20px 0px 0px;
 }
 .big-photo{
     width: 721px;
-    height: 474px;
 }
 .between-mid-and-big-photo{
-    height: 387px;
     width: 590px;
 }
 .mid-photo{
     Width: 387px;
-    Height: 254px;
 }
 .small-photo{
     Width: 285px;
-    Height: 187px;
 }
 .content-photo{
     margin-bottom: 25px;
 }
 .main-content-text{
-    position: relative;
+    width: 35%;
     margin-left: 51px;
     animation-name: move-text;
     animation-duration: 2s;
@@ -114,7 +111,7 @@ header{
     animation-duration: 2s;
 }
 .main-content-photo{
-    position: relative;
+    
 }
 .type{
     font-size: 10px;
@@ -128,18 +125,20 @@ header{
     animation-duration: 2s;
 }
 .type-of-photo-margin{
-    margin-bottom: 18px;
+    margin: 0px 0px 18px 0px;
 }
 .photo-name{
     font-family: 'Tenor Sans';
     color: #000000;
 }
 .photo-name-big{
+    width: 450px;
     margin-bottom: 27px;
     font-size: 36px;
     line-height: 42px;
 }
 .photo-name-small{
+    width: 280px;
     margin-bottom: 15px;
     font-size: 20px;
     line-height: 24px;
@@ -203,6 +202,10 @@ header{
     text-transform: none;
     border: 1px solid #CCCCCC; 
     border-radius: 0px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #666666;
 }
 input[type="email"]:focus{
     outline: 0;
@@ -212,8 +215,8 @@ input[type="email"]:focus{
     background: #000000;
     border-radius: 0px;
     border: 0px;
-    width: 79px;
-    height: 49px;
+    width: 80px;
+    height: 50px;
     color: #FFFFFF;
     border: 1px solid #000000;
 }
@@ -222,6 +225,7 @@ input[type="email"]:focus{
     border: 1px solid #CCCCCC;
 }
 .gorizontal-line{
+    overflow: hidden;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -232,19 +236,28 @@ input[type="email"]:focus{
 .site-gorizontal-line{
     margin: 90px 0px 90px 0px;
 }
+footer{
+    padding: 93px 0px 0px 0px ;
+}
 .footer-gorizontal-line{
     margin: 60px 0px 60px 0px;
+}
+.footer-list{
+    flex: 1 1 auto;
+    padding-right: 114px;
+}
+.footer-categories{
+    display: flex;
+    justify-content: space-between;
 }
 footer{
     margin-top: 90px;
     background: #141414;
-    height: 617px;
     flex-direction: column;
     animation-name: show-element;
     animation-duration: 2s;
 }
 .footer-container{
-    height: 524px;
     margin-top: 93px;
 }
 .footer-info{
@@ -253,17 +266,20 @@ footer{
     flex-direction: row;
 }
 .footer-information-margin-right{
-    margin: 0px 152px 0px 0px;
+    margin: 0px 142px 0px 0px;
 }
 .footer-follow-margin-right{
-    margin: 0px 144px 0px 0px;
+    margin: 0px 130px 0px 0px;
 }
-.photo-scale{
+.newsletter{
+    max-width: 326px;
+}
+/* .photo-scale{
     transition: all 0.5s ease;
 }
 .photo-scale:hover{
     transform: scale(0.9,0.9);
-}
+} 
 @keyframes move-text{
     0%{
         right: -500px;
@@ -299,5 +315,205 @@ footer{
     100%{
         opacity: 1;
     }
+} */
+@media (max-width: 1300px) {
+    .container{
+        width: 720px;
+    }
+    .main-content{
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0px 60px 0px;
+    }
+    .main-content-photo{
+        display: flex;
+        justify-content: center;
+    }
+    .main-content-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .about-photo{
+        margin-bottom: 8px;
+    }
+    .type-of-photo-margin{
+        margin: 20px 0px 18px 0px;
+    }
+    .photo-name-big{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .secondary-content{
+        justify-content: center;
+        margin: 0px 0px 20px 0px;
+    }
+    .wrap-elements{
+        flex-wrap: wrap;
+    }
+    .content-item{
+        margin: 0px 10px 30px 0px;
+    }
+    .mid-photo{
+        width: 234px;
+    }
+    .content-photo{
+        margin-bottom: 10px;
+    }
+    .photo-name-small{
+        width: 200px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .type{
+        font-size: 9px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        color: #999999;
+    }
+    .type-of-photo-margin{
+        margin: 10px 0px 10px 0px;
+    }
+    .site-gorizontal-line{
+        margin: 10px 0px 40px 0px;
+    }
+    .footer-gorizontal-line{
+        margin: 60px 0px 60px 0px;
+    }
+    .small-photo,
+    .between-mid-and-big-photo{
+        width: 355px;
+    }
+    .button{
+        margin: 25px 0px 50px 0px;
+    }
+    .latest-posts:nth-child(even){
+        margin-right: 0px;
+    }
+    .footer-categories{
+        flex-direction: column;
+    }
+    .footer-list{
+        padding-right: 0px;
+    }
+    .newsletter{
+        padding-top: 20px;
+    }
+    
 }
-
+@media (max-width: 800px){
+    .container{
+        width: 450px;
+    }
+    .big-photo{
+        width: 100%;
+    }
+    .main-content-text{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .photo-name-big{
+        margin-bottom: 10px;
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .about-photo{
+        margin-bottom: 8px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .secondary-content{
+        flex-wrap: wrap;
+        margin: 0px 0px 0px 0px;
+    }
+    .type-of-photo-margin{
+        margin: 10px 0px 10px 0px;
+    }
+    .main-content{
+        margin-bottom: 60px;
+        margin-top: 30px;
+        margin: 30px 0px 25px 0px;
+    }
+    .mid-photo,
+    .between-mid-and-big-photo{
+        width: 300px;
+    }
+    .photo-name-small{
+        width: 280px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .wrap-elements{
+        display: none;
+    }
+    .latest-posts:nth-child(even){
+        margin-right: 10px;
+    }
+    .footer-information-margin-right{
+        margin: 0px 10px 0px 0px;
+    }
+    .footer-follow-margin-right{
+        margin: 0px 0px 0px 0px;
+    }
+    .categories{
+        flex-wrap: wrap;
+    }
+    .categories-item{
+        margin-right: 60px;
+    }
+    .footer-info{
+        margin: 40px 0px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main-text-footer{
+        font-size: 9px;
+        line-height: 12px;
+        letter-spacing: 1px;
+    }
+    .secondary-text-footer{
+        font-size: 13px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 500px){
+    .container{
+        width: 280px;
+    }
+    .mid-photo,
+    .between-mid-and-big-photo{
+        width: 100%;
+    }
+    .header-container{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .footer-info{
+        flex-direction: column;
+        margin: 20px 0px 0px 0px;
+    }
+    .newsletter-input{
+        flex-wrap: wrap;
+    }
+    .send-btn{
+        width: 246px;
+    }
+    .header-menu{
+        justify-content: start;
+        padding: 0px;
+    }
+    .information{
+        display: flex;
+    }
+    .footer-item{
+        margin-right: 15px;
+    }
+    .main-text-footer{
+        margin-bottom: 10px;
+    }
+} 
