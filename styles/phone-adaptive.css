@@ -1,6 +1,6 @@
-@media (max-width: 500px){
+@media (max-width: 535px){
     .container{
-        width: 280px;
+        width: 350px;
     }
     .mid-photo,
     .between-mid-and-big-photo{
@@ -27,18 +27,7 @@
     } 
     .header-container{
         justify-content: center;
-        width: 500px;
         height: 65px;
-        background: white;
-    }
-    .hamburger-menu{
-        display: block;
-        position: relative;
-        z-index: 4;
-    }
-    header{
-        position: sticky;
-        top: 0;
     }
     .information{
         display: flex;
@@ -48,5 +37,16 @@
     }
     .main-text-footer{
         margin-bottom: 10px;
+    }
+    .categories-item{
+        width: 110px;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    header{
+        background: white;
+        position: sticky;
+        top: 0;
     }
 } 

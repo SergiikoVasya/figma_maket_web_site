@@ -1,6 +1,6 @@
 @media (max-width: 800px){
     .container{
-        width: 450px;
+        width: 500px;
     }
     .big-photo{
         width: 100%;
@@ -34,13 +34,13 @@
     }
     .mid-photo,
     .between-mid-and-big-photo{
-        width: 300px;
+        width: 500px;
     }
     .photo-name-small{
-        width: 280px;
+        width: 90%;
         margin-bottom: 10px;
-        font-size: 14px;
-        line-height: 15px;
+        font-size: 17px;
+        line-height: 17px;
     }
     .wrap-elements{
         display: none;
