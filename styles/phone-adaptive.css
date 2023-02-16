@@ -1,0 +1,45 @@
+@media (max-width: 500px){
+    .container{
+        width: 280px;
+    }
+    .mid-photo,
+    .between-mid-and-big-photo{
+        width: 100%;
+    }
+    /* .header-container{
+        flex-direction: column;
+        justify-content: space-evenly;
+    } */
+    .footer-info{
+        flex-direction: column;
+        margin: 20px 0px 0px 0px;
+    }
+    .newsletter-input{
+        flex-wrap: wrap;
+    }
+    .send-btn{
+        width: 246px;
+    }
+    .header-menu{
+        /* justify-content: start;
+        padding: 0px; */
+        display: none;
+    } 
+    .header-container{
+        justify-content: center;
+    }
+    .hamburger-menu{
+        display: block;
+        position: relative;
+        z-index: 4;
+    }
+    .information{
+        display: flex;
+    }
+    .footer-item{
+        margin-right: 15px;
+    }
+    .main-text-footer{
+        margin-bottom: 10px;
+    }
+} 
