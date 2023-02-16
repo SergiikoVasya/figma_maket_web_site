@@ -70,7 +70,6 @@ header{
     height: 100%;
     display: flex;
     align-items: center;
-    position: relative;
     animation-name: move-header;
     animation-duration: 2.5s;
 }
